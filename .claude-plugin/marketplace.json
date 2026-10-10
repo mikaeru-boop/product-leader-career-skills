@@ -1,0 +1,20 @@
+{
+  "name": "product-leader-career-skills",
+  "owner": {
+    "name": "Misa",
+    "url": "https://github.com/mikaeru-boop"
+  },
+  "metadata": {
+    "description": "Claude skills for Director and VP product leaders running a job search.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "product-leader-career-skills",
+      "source": "./",
+      "description": "Job application builder, interview prep coach, and offer and salary negotiation skills for product leaders in healthcare and AI.",
+      "version": "1.0.0",
+      "category": "productivity"
+    }
+  ]
+}

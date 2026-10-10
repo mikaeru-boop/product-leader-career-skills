@@ -12,4 +12,32 @@ Claude skills for Director and VP product leaders running a job search, with ext
 
 ## Install
 
-Copy a skill folder into your skills directory, for example `~/.claude/skills/`, or upload the folder as a skill in Claude.
+### Claude Code
+
+Install all three skills as one plugin:
+
+```
+/plugin install product-leader-career-skills --marketplace mikaeru-boop/product-leader-career-skills
+```
+
+On older Claude Code versions, add the marketplace first, then install:
+
+```
+/plugin marketplace add mikaeru-boop/product-leader-career-skills
+/plugin install product-leader-career-skills@product-leader-career-skills
+```
+
+To install one skill by hand, copy its folder into `~/.claude/skills/`.
+
+### Claude apps
+
+1. Download a zip from the [dist](dist) folder:
+   - [job-application-builder.zip](dist/job-application-builder.zip)
+   - [interview-prep-coach.zip](dist/interview-prep-coach.zip)
+   - [offer-and-salary-negotiation.zip](dist/offer-and-salary-negotiation.zip)
+2. In Claude, open Settings, then Capabilities, then Skills.
+3. Select Upload skill and choose the zip.
+
+### Rebuild the zips
+
+After you edit a `SKILL.md`, run `./scripts/build-zips.sh` to refresh the files in `dist/`.
