@@ -1,0 +1,13 @@
+{
+  "name": "product-leader-career-skills",
+  "version": "1.0.0",
+  "description": "Job search skills for Director and VP product leaders: job application builder, interview prep coach, and offer and salary negotiation, with extra depth for healthcare and AI roles.",
+  "author": {
+    "name": "Misa",
+    "url": "https://github.com/mikaeru-boop"
+  },
+  "homepage": "https://github.com/mikaeru-boop/product-leader-career-skills",
+  "repository": "https://github.com/mikaeru-boop/product-leader-career-skills",
+  "license": "MIT",
+  "keywords": ["career", "job-search", "product-management", "interview", "salary-negotiation", "healthcare", "ai"]
+}
